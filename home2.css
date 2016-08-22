@@ -1,0 +1,125 @@
+@media (max-width: 700px){
+	*{
+		margin: 0;
+	}
+
+	nav ul li{
+		font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+		list-style-type: none;
+	}
+
+	body{
+		background: url("images/IMG_2027.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+
+	nav{
+		height: 100px;
+		width: 100%;
+	}
+
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+ul a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 45%;
+}
+
+ul a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 280px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 35%;
+}
+
+.dropdown-content li a {
+    color: black;
+    padding: 10px 1px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+}
+
+
+
+@media (min-width: 701px){
+	nav ul li{
+		float: left;
+		font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+		padding: 10px;
+		list-style-type: none;
+	}
+
+	nav ul li a{
+		color: white;
+	}
+
+	nav ul{
+		height: 100px;
+		width: 600px;
+		margin: 0 auto;
+	}
+
+	body{
+		background: url("images/IMG_2027.jpg") no-repeat center center fixed;
+	    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+
+	.dropbtn{
+		display: none;
+	}
+}
+
+
+
+nav ul li a{
+		color: black;
+		text-decoration: none;
+	}
+
+.content{
+	width: 80%;
+	margin-left: 10%;
+	/*background-color: teal;*/
+	background: rgb(0,128,128);
+	background: rgba(0,128,128, .28);
+	margin-top: 10px;
+}
+
+img{
+	vertical-align: middle;
+}

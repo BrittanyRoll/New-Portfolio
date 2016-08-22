@@ -1,0 +1,62 @@
+
+@media (max-width: 700px){
+	nav ul li{
+		float: left;
+		font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+		padding: 10px;
+		list-style-type: none;
+	}
+
+	body{
+		background: url("images/IMG_2304.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+
+	nav{
+		margin-left: 5%;
+		height: 100px;
+		width: 90%;
+	}
+}
+
+
+
+@media (min-width: 701px){
+	nav ul li{
+		float: left;
+		font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+		padding: 10px;
+		list-style-type: none;
+	}
+
+	nav ul{
+		height: 100px;
+		width: 600px;
+		margin: 0 auto;
+	}
+
+	body{
+		background: url("images/IMG_2027.jpg") no-repeat center center fixed;
+	    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+}
+
+
+
+nav ul li a{
+		color: black;
+		text-decoration: none;
+	}
+
+.content{
+	width: 80%;
+	margin-left: 10%;
+	background-color: teal;
+	margin-top: 10px;
+}
