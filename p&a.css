@@ -255,8 +255,13 @@ h3{
   color: white;
 }
 
-.volunteering{
-  margin-top: 40px;
+.v a{
+  color: white;
+  text-decoration: none;
+}
+
+.v a:hover{
+  color: teal;
 }
 
 .about31{

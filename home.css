@@ -236,24 +236,19 @@ h4{
 	margin-left: 15%;
 }
 
-.sm ol{
-	color: teal;
+.sm{
+	text-align: center;
 }
 
-ol li{
-	color: rgba(0,128,128, .08);
+.sm a{
 	margin-bottom: 10px;
 	margin-top: 5px;
-	margin-left: 40%;
 	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-}
-
-ol li a{
 	text-decoration: none;
 	color: white;
 }
 
-ol li a:hover{
+.sm a:hover{
 	color: purple;
 }
 
