@@ -71,10 +71,6 @@ li.dropdown {
     display: block;
 }
 
-.line{
-	margin-left: 40%;
-}
-
 .share{
 	margin-top: 50px;
 	width: 60%;
@@ -113,10 +109,6 @@ li.dropdown {
 	.dropbtn{
 		display: none;
 	}
-
-	.line{
-	margin-left: 40%;
-}
 
 	.share{
 	margin-top: 50px;
@@ -161,55 +153,29 @@ nav ul li a{
 	float: left;
 }
 
-.cover{
-	vertical-align: middle;
-	border: 1px solid black;
-	margin-top: 20px;
-}
 
 h1{
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 20px;
 	text-align: center;
-	margin-top: 20px;
-	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-	color: white;
-	font-weight: lighter;
-	font-size: 40px;
 }
 
-h6{
-	text-align: center;
-	margin-top: 17px;
-	color: white;
-	font-size: 14px;
-	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-weight: lighter;
-}
-
-h5{
-	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 14px;
-	color:white;
-	font-weight: lighter;
-	text-align: center;
-	margin-top: 10px;
-}
-
-h5 a{
+h1 a{
 	color: white;
 	text-decoration: none;
 }
 
-h5 a:hover{
-	color: darkblue;
+h1 a:hover{
+	color: purple;
 }
 
-h4{
-	margin-left: 39%;
-	margin-top: 8px;
-	margin-bottom: 10px;
+h2{
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
 }
-
-
 
 .about1{
 	width: 70%;
@@ -218,6 +184,7 @@ h4{
 	color: white;
 	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 	font-style: italic;
+	margin-top: 10px;
 }
 
 .about2{
@@ -226,35 +193,8 @@ h4{
 	margin-left: 15%;
 	color: white;
 	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-	margin-top: 7px;
-}
-
-.checkout{
-	color: white;
-	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-	margin-top: 5px;
-	margin-left: 15%;
-}
-
-.sm ol{
-	color: teal;
-}
-
-ol li{
-	color: rgba(0,128,128, .08);
-	margin-bottom: 10px;
-	margin-top: 5px;
-	margin-left: 40%;
-	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-}
-
-ol li a{
-	text-decoration: none;
-	color: white;
-}
-
-ol li a:hover{
-	color: purple;
+	margin-top: 10px;
+	font-style: italic;
 }
 
 .bottom{
@@ -262,11 +202,7 @@ ol li a:hover{
 	width: 100%;
 }
 
-.share{
-	margin-top: 50px;
-	width: 60%;
-	margin-left: 20%;
-}
+
 
 
 
@@ -441,22 +377,3 @@ ol li a:hover{
   background: rgba(0,128,128, .28);
   border-color: #8c0615;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

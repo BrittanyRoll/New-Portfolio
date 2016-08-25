@@ -71,8 +71,10 @@ li.dropdown {
     display: block;
 }
 
-.line{
-	margin-left: 40%;
+.share{
+	margin-top: 50px;
+	width: 60%;
+	margin-left: 20%;
 }
 }
 
@@ -108,8 +110,10 @@ li.dropdown {
 		display: none;
 	}
 
-	.line{
-	margin-left: 40%;
+	.share{
+	margin-top: 50px;
+	width: 60%;
+	margin-left: 30%;
 }
 }
 
@@ -149,100 +153,124 @@ nav ul li a{
 	float: left;
 }
 
-.cover{
-	vertical-align: middle;
-	border: 1px solid black;
-	margin-top: 20px;
-}
 
 h1{
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 20px;
 	text-align: center;
-	margin-top: 20px;
-	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-	color: white;
-	font-weight: lighter;
-	font-size: 40px;
+  color: white;
 }
 
-h6{
+h2{
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 20px;
 	text-align: center;
-	margin-top: 17px;
 	color: white;
-	font-size: 14px;
-	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-weight: lighter;
+	margin-top: 15px;
 }
 
-h5{
-	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 14px;
-	color:white;
-	font-weight: lighter;
-	text-align: center;
-	margin-top: 10px;
-}
-
-h5 a{
-	color: white;
-	text-decoration: none;
-}
-
-h5 a:hover{
-	color: darkblue;
-}
-
-h4{
-	margin-left: 39%;
-	margin-top: 8px;
-	margin-bottom: 10px;
-}
-
-
-
-.about1{
+.about11{
 	width: 70%;
 	text-align: center;
 	margin-left: 15%;
 	color: white;
 	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 	font-style: italic;
+	margin-top: 10px;
 }
 
-.about2{
+.about12{
+  width: 70%;
+  text-align: center;
+  margin-left: 15%;
+  color: white;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.about13{
+  width: 70%;
+  text-align: center;
+  margin-left: 15%;
+  color: white;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.a11{
+  margin-left: 35%;
+  margin-top: 10px;
+}
+
+.a12{
+  margin-left: 15%;
+  margin-top: 10px;
+}
+
+.about21{
 	width: 70%;
 	text-align: center;
 	margin-left: 15%;
 	color: white;
 	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-	margin-top: 7px;
+	margin-top: 10px;
+	font-style: italic;
 }
 
-.checkout{
-	color: white;
-	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-	margin-top: 5px;
-	margin-left: 15%;
+.about21 a{
+  color: white;
+  text-decoration: none;
 }
 
-.sm ol{
-	color: teal;
+.about21 a:hover{
+  color: teal;
+  text-decoration: underline;
 }
 
-ol li{
-	color: rgba(0,128,128, .08);
-	margin-bottom: 10px;
-	margin-top: 5px;
-	margin-left: 40%;
-	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+h6{
+  color: white;
+  text-align: center;
+  font-size: 15px;
 }
 
-ol li a{
-	text-decoration: none;
-	color: white;
+.a1, .a2, .a3, .a4, .a5, .a6{
+  float: left;
+  margin-left: 5%;
 }
 
-ol li a:hover{
-	color: purple;
+.a5{
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+
+.a5 #clock{
+  margin-left: 30px;
+  margin-top: 12px;
+}
+
+h3{
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.volunteering{
+  margin-top: 40px;
+}
+
+.about31{
+  width: 70%;
+  text-align: center;
+  margin-left: 15%;
+  color: white;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  margin-top: 10px;
+  font-style: italic;
 }
 
 .bottom{
@@ -250,11 +278,9 @@ ol li a:hover{
 	width: 100%;
 }
 
-.share{
-	margin-top: 50px;
-	width: 60%;
-	margin-left: 20%;
-}
+
+
+
 
 
 
@@ -429,22 +455,3 @@ ol li a:hover{
   background: rgba(0,128,128, .28);
   border-color: #8c0615;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
